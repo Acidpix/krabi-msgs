@@ -47,6 +47,7 @@ set(srv_files
 "srv/MotorsParams.srv"
 "srv/AreWeThereYet.srv"
 "srv/GrabFlipDrop.srv"
+"srv/CorrectPose.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
